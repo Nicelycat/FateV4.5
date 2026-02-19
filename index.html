@@ -9,7 +9,7 @@
     <div style="width: 100vw;">
         <a onclick="switchtourl('main')">
             <div style="float: left; width: 10vw;">
-                <p class="bartext">Universal UB</p>
+                <p class="bartext">NICECAT</p>
             </div>
         </a>
         <div onclick="cloaksite('main')" style="float: right; text-align: right; text-wrap: nowrap; transform: translateX(-300px);">
@@ -17,7 +17,7 @@
         </div>
     </div>
     <div class="titleimage">
-        <h1 class="title">Universal UB</h1>
+        <h1 class="title">NICECAT</h1>
         <br>
         <h2 style="position: absolute; transform: translateY(75px); width: 700px;"><span id="randomtext"></span></h2>
     </div>
@@ -28,8 +28,8 @@
         <h2 class="padding">New message to school admin: Hi, nice job taking down the site 😉 not good enough though, try harder ♡</h2>
         <hr class="lighthr">
         <h1 class="padding">Important!</h1>
-        <h2 onclick="openurl('https://uniub.github.io')" class="padding">Use uniub.github.io before it gets blocked!</h2>
-        <a href="/downloads/UniversalUBLoader.html"><h2 class="padding">If site gets blocked download this file!</h2></a>
+        <h2 onclick="openurl('https://nicelycat.github.io')" class="padding">Use nicelycat.github.io before it gets blocked!</h2>
+        <a href="/downloads/NICECATLoader.html"><h2 class="padding">If site gets blocked download this file!</h2></a>
         <h2 onclick="openurl('https://discord.gg/pAJVKRK5rZ')" class="padding">Discord server (click)</h2>
         <hr class="lighthr">
         <h1 class="padding">Update Log</h1> 
@@ -86,17 +86,20 @@
     </body>
     <div class="footer">
         <div class="smallmargin"></div>
-        <a style="text-decoration: none; color: #414d75;" onclick="openurl('https://www.github.com/' + currentname)"><p style="color: #414d75;"> Github </a><a style="text-decoration: none;" onclick="switchtourl('/terms')"><span style="color: #414d75;"> Terms </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/about')"><span style="color: #414d75;"> About </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/credits')"><span style="color: #414d75;"> Credits </span></a></p>
+        <a style="text-decoration: none; color: #414d75;" onclick="openurl('https://www.github.com/nicelycat')"><p style="color: #414d75;"> Github </a><a style="text-decoration: none;" onclick="switchtourl('/terms')"><span style="color: #414d75;"> Terms </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/about')"><span style="color: #414d75;"> About </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/credits')"><span style="color: #414d75;"> Credits </span></a></p>
         <div class="smallmargin"></div>
     </div>
     <script>
         window.alert("Hi, Theres a good chance I'll be going to a different school next year, unless they use chromebooks, most of these exploits won't be maintained after this year. Sorry :(")
+        
+        var currentname = 'nicelycat';
+        
         function pagesecurity(baseURL) {
             var currentURL = window.location.href;
             if (currentURL.startsWith(baseURL)) {
                 return;
             } else {
-                document.body.innerHTML = '<p style="color: black; font-family: arial; font-weight: 400; font-size: 32px;">[WARNING] This page is not being hosted on its original location, please go to <a style="color: black; font-family: arial; font-weight: 400; font-size: 32px;" href="http://' + currentname + '.github.io" target="_blank">universalub</a> to visit the original site.</p>';
+                document.body.innerHTML = '<p style="color: black; font-family: arial; font-weight: 400; font-size: 32px;">[WARNING] This page is not being hosted on its original location, please go to <a style="color: black; font-family: arial; font-weight: 400; font-size: 32px;" href="http://' + currentname + '.github.io" target="_blank">nicelycat</a> to visit the original site.</p>';
             }
         }
 
